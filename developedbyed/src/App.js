@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1> Counter {counter} </h1>
-      <button onclick = {()=> dispatch(increment())}> + </button>
+      <button onClick = {()=> dispatch(increment())}> + </button>
       {isLogged? <h3> valuable information i shouldnot see </h3> : ''}
     </div>
   );
